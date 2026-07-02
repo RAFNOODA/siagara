@@ -1,0 +1,18 @@
+name: SigaraPlugin
+version: '1.0.0'
+main: com.sigara.plugin.SigaraPlugin
+api-version: '1.21'
+author: sigara
+description: /sigara al [miktar] komutuyla ozel goat_horn (sigara) itemi verir.
+
+commands:
+  sigara:
+    description: Sigara itemi verir.
+    usage: /sigara al [miktar]
+    permission: sigara.al
+    permission-message: Bu komutu kullanma yetkin yok.
+
+permissions:
+  sigara.al:
+    description: /sigara al komutunu kullanabilir
+    default: op
